@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__zen__consensus",
+      "mcp__zen__listmodels",
+      "mcp__zen__chat",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

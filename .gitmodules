@@ -1,0 +1,3 @@
+[submodule "PinionCore.Remote"]
+	path = PinionCore.Remote
+	url = https://github.com/jiowchern/PinionCore.Remote.git
