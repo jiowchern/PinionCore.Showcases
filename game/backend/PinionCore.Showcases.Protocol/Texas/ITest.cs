@@ -1,4 +1,4 @@
-﻿namespace PinionCore.Showcases.Texas.Protocol
+﻿namespace PinionCore.Showcases.Protocol.Texas
 {
     public interface ITest
     {

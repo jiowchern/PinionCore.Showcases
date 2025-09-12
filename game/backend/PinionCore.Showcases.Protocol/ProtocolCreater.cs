@@ -1,4 +1,4 @@
-﻿namespace PinionCore.Showcases.Texas.Protocol
+﻿namespace PinionCore.Showcases.Protocol
 {
     public static partial class ProtocolCreater
     {

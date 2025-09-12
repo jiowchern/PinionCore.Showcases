@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace PinionCore.Showcases.Texas.Protocol
+namespace PinionCore.Showcases.Protocol.Texas
 {
     public readonly struct Card : IEquatable<Card>, IComparable<Card>
     {

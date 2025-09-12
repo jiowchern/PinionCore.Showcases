@@ -1,3 +1,3 @@
-[submodule "PinionCore.Remote"]
-	path = PinionCore.Remote
+[submodule "game/backend/PinionCore.Remote"]
+	path = game/backend/PinionCore.Remote
 	url = https://github.com/jiowchern/PinionCore.Remote.git
