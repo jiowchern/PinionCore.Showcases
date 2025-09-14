@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PinionCore.Showcases.Lobby.Server": {
+      "commandName": "Project",
+      "commandLineArgs": "--tcp-port 51633"
+    }
+  }
+}
