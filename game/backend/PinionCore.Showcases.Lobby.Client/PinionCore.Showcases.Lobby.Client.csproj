@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PinionCore.Showcases.Protocol\PinionCore.Showcases.Protocol.csproj" />
+    <ProjectReference Include="..\PinionCore.Remote\PinionCore.Remote.Client\PinionCore.Remote.Client.csproj" />
+    <ProjectReference Include="..\PinionCore.Remote\PinionCore.Remote\PinionCore.Remote.csproj" />
+    <ProjectReference Include="..\PinionCore.Remote\PinionCore.Remote.Standalone\PinionCore.Remote.Standalone.csproj" />
+    <ProjectReference Include="..\PinionCore.Remote\PinionCore.Network\PinionCore.Network.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+  </ItemGroup>
+
+</Project>
+
