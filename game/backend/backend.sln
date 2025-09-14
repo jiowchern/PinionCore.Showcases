@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinionCore.Serialization", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinionCore.Utility", "PinionCore.Remote\PinionCore.Utility\PinionCore.Utility\PinionCore.Utility.csproj", "{91234567-89AB-CDEF-0123-456789ABCDEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinionCore.Showcases.Protocol.Tests", "PinionCore.Showcases.Protocol.Tests\PinionCore.Showcases.Protocol.Tests.csproj", "{122C37FE-C64B-473D-9EC2-AA0D41A0F4AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{91234567-89AB-CDEF-0123-456789ABCDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91234567-89AB-CDEF-0123-456789ABCDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91234567-89AB-CDEF-0123-456789ABCDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122C37FE-C64B-473D-9EC2-AA0D41A0F4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122C37FE-C64B-473D-9EC2-AA0D41A0F4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122C37FE-C64B-473D-9EC2-AA0D41A0F4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122C37FE-C64B-473D-9EC2-AA0D41A0F4AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
