@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PinionCore.Showcases.Lobby.Client": {
+      "commandName": "Project",
+      "commandLineArgs": "--tcp 127.0.0.1:51633 --username alice"
+    }
+  }
+}

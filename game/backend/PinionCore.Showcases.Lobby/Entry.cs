@@ -18,7 +18,7 @@ namespace PinionCore.Showcases.Lobby
         }
         void IBinderProvider.RegisterClientBinder(IBinder binder)
         {
-            var user = new User(binder, _Validator);
+            var user = new User(_Validator);
             _Users.Add(binder, user);
             var soul = binder.Bind<PinionCore.Showcases.Protocol.Lobby.IUser>(user);
             _Souls[binder] = soul;

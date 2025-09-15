@@ -9,7 +9,7 @@ namespace PinionCore.Showcases.Lobby
     class User : PinionCore.Utility.IUpdatable , IUser
     {
         readonly Validator _Validator;
-        public readonly IBinder Binder;
+        
 
         string _Account;
         readonly PinionCore.Utility.StatusMachine _Machine;
@@ -18,9 +18,9 @@ namespace PinionCore.Showcases.Lobby
         readonly Remote.Notifier<ILogin> _LoginNotifier;
         Remote.Notifier<ILogin> IUser.Notifier => _LoginNotifier;
 
-        public User(IBinder binder , Validator  validator)
+        public User(Validator  validator)
         {
-            Binder = binder;
+            
             _Machine = new StatusMachine();
             _Validator = validator;            
             _Account = "";
@@ -69,6 +69,7 @@ namespace PinionCore.Showcases.Lobby
 
         bool IUpdatable.Update()
         {
+            _Machine.Update();
             return true;
         }
         

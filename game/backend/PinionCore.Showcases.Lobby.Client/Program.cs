@@ -127,6 +127,7 @@ namespace PinionCore.Showcases.Lobby.Client
 
         static int RunClientLoop(PinionCore.Remote.Ghost.IAgent agent, Options opts, Action onExit)
         {
+
             var cts = new System.Threading.CancellationTokenSource();
             Console.CancelKeyPress += (s, e) => { e.Cancel = true; cts.Cancel(); };
 
